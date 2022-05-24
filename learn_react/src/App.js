@@ -6,7 +6,9 @@ function App() {
   return (
     <div className="App">
       {/* call using function name */}
-      <Greet name="Nehaaaaaaa" />
+      <Greet name="Nehaaaaaaa">
+        <p>This is children props</p>
+      </Greet>
       <Welcome />
     </div>
   );
