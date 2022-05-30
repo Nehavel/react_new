@@ -3,6 +3,7 @@ import Greet from "./components/Greet";
 import Welcome from "./components/Welcome";
 import Counter from "./components/Counter";
 import Message from "./components/Message";
+import ParentComponent from "./components/ParentComponent";
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,8 @@ function App() {
       {/* state example */}
       <Message></Message>
       <Counter></Counter>
+      parent child
+      <ParentComponent />
     </div>
   );
 }
